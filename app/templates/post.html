@@ -18,7 +18,6 @@
     <ul>
         {% for comment in post.comments %}
         <li class="comments">{{ comment.author }}: {{ comment.text }}</li>
-        <!-- Рекурсивно отображаем ответы на комментарии -->
         {% for reply in comment.replies %}
             <ul>
                 <li class="comments">{{ reply.author }}: {{ reply.text }}</li>
