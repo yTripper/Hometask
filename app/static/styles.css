@@ -48,3 +48,7 @@ body {
     border: 0.1rem solid rgb(49, 163, 244);
     border-radius: 0.2rem;
 }
+
+footer {
+    margin-left: 7rem;
+}
